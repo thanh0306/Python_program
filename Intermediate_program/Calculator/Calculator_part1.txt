@@ -1,0 +1,19 @@
+print("Calculator")
+number_1 = int(input("Give the first number: "))
+number_2 = int(input("Give the second number: "))
+print("(1) +\n(2) -\n(3) *\n(4) /")
+number_3 = int(input("Please select something (1-4): "))
+if number_3 == 1:
+	result = number_1 + number_2
+	print("The result is: {}".format(result))
+elif number_3 == 2:
+	result = number_1 - number_2
+	print("The result is: {}".format(result))
+elif number_3 == 3:
+	result = number_1 * number_2
+	print("The result is: {}".format(result))
+elif number_3 == 4:
+	result = float(number_1 / number_2)
+	print("The result is: {}".format(result))
+else: 
+	print("Selection was not correct.")

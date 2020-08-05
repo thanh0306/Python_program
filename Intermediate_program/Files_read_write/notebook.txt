@@ -1,0 +1,4 @@
+Hello. This is Thanh Nguyen
+This time note will be adding content to notebook with timestamp:::20:39:58 08/05/20
+This time, I will test notebook.txt:::21:14:04 08/05/20
+done!:::21:14:16 08/05/20
